@@ -1,28 +1,70 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header class="text-center text-white">
-      <h1 class="header-title">WELCOME TO THE QUIZ</h1>
-      <p class="header-subtitle">Play Fair. Win Fair.</p>
-    </header>
 
-    <div class="container-fluid">
-      <button type="button" class="btn btn-primary btn-lg">Large button</button>
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>
+    Quiz App
+  </title>
+</head>
+
+<body>
+  <header class="text-center text-white">
+    <h1 class="header-title">WELCOME TO THE QUIZ</h1>
+    <p class="header-subtitle">. . . . . Play Fair | Win Fair . . . . .</p>
+    <div class="scroll">
+      Scroll to Choose a Level
+      <div class="arrow">↓</div>
     </div>
-  </body>
+  </header>
+
+  <div class="container-fluid">
+    <div class="levels text-center">
+      <div class="card m-5" style="width: 18rem">
+        <img src="./level1.png" class="card-img-top p-4" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Easy</h5>
+          <p class="card-text">
+            Let's begin with some warm-ups for this level. Shall we?
+          </p>
+          <a class="btn btn-outline-primary btn-lg btn-block" href="./easy.html">
+            Let's Go!
+          </a>
+        </div>
+      </div>
+
+      <div class="card m-5" style="width: 18rem">
+        <img src="./level2.png" class="card-img-top p-4" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Medium</h5>
+          <p class="card-text">
+            Make yourself comfortable and begin this level with a clear mind.
+          </p>
+          <a class="btn btn-outline-primary btn-lg btn-block" href="./medium.html">
+            Let's Go!
+          </a>
+        </div>
+      </div>
+
+      <div class="card m-5" style="width: 18rem">
+        <img src="./level3.png" class="card-img-top p-4" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Hard</h5>
+          <p class="card-text">
+            Get your brains in adrenaline mode. This will get serious.
+          </p>
+          <a class="btn btn-outline-primary btn-lg btn-block" href="./hard.html">
+            Let's Go!
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./javascript.js"></script>
+</body>
+
 </html>
