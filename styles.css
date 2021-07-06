@@ -11,7 +11,7 @@
 }
 
 body {
-  height: 200vh;
+  height: 180vh;
   background-image: linear-gradient(
     to right top,
     #051937,
@@ -34,20 +34,116 @@ body {
 header {
   font-family: "Rubik", sans-serif;
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 100px;
 }
 
 header h1 {
-  font-size: 8.5vmin;
-  font-weight: bold;
-  padding: 0.1em 0em;
+  font-size: 60px;
+  font-weight: bolder;
+  letter-spacing: 30px;
+  margin: 150px;
 }
 
 header p {
-  padding: 1vmin 5vmin;
+  font-size: 20px;
+  letter-spacing: 10px;
+  margin: 100px;
+  font-family: var(--Patua);
+}
+
+.scroll {
+  display: block;
+  font-size: 15px;
+  font-family: var(--Lobster);
+  margin: 150px;
+  -webkit-font-smoothing: antialiased;
+  animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  -moz-animation: bounce 2s infinite;
+  -o-animation: bounce 2s infinite;
+}
+
+@-webkit-keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    -webkit-transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-20px);
+  }
+  60% {
+    -webkit-transform: translateY(-10px);
+  }
+}
+
+@-moz-keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    -moz-transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-20px);
+  }
+  60% {
+    -moz-transform: translateY(-10px);
+  }
+}
+
+@-o-keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    -o-transform: translateY(0);
+  }
+  40% {
+    -o-transform: translateY(-20px);
+  }
+  60% {
+    -o-transform: translateY(-10px);
+  }
+}
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
+}
+
+.arrow {
+  font-size: 30px;
+  line-height: 60px;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
 }
 
 .container-fluid {
-  text-align: center;
+  align-self: center;
+}
+
+.card {
+  display: inline-block;
+  transition: transform 250ms;
+}
+
+.card:hover,
+.card:focus {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transform: translateY(-0.25em);
 }
