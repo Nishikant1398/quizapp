@@ -1,34 +1,32 @@
-{
-  "posts": [
-    {
-      "id": 1,
-      "title": "Post 1",
-      "description": "this is description 1"
-    },
-    {
-      "id": 2,
-      "title": "Post 2",
-      "description": "this is description 2"
-    },
-    {
-      "id": 3,
-      "title": "Post 3",
-      "description": "this is description 3"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "comment 1",
-      "postId": 1
-    },
-    {
-      "id": 2,
-      "body": "comment 2",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "Profile 1"
-  }
-}
+"easy": [
+      {
+        "id": 0,
+        "question": "How many letters are there in English Alphabets ?",
+        "options": {"A": 22, "B": 25, "C": 26, "D": 24},
+        "answer": "C"
+      },
+      {
+        "id": 1,
+        "question": "What is the capital of United States of America ?",
+        "options": {"A": "New York", "B": "Washington DC", "C": "San Francisco", "D": "Chicago"},
+        "answer": "B"
+      },
+      {
+        "id": 2,
+        "question": "Name the first element of periodic element ?",
+        "options": {"A": "Hydrogen", "B": "Carbon", "C": "Lithium", "D": "Boron"},
+        "answer": "A"
+      },
+      {
+        "id": 3,
+        "question": "What is the national Game of India ?",
+        "options": {"A": "Cricket", "B": "Hockey", "C": "Football", "D": "Kabaddi"},
+        "answer": "B"
+      },
+      {
+        "id": 4,
+        "question": "Who is the owner of Reliance Industries Limited ?",
+        "options": {"A": "Mukesh Ambani", "B": "Ratan Tata", "C": "Aditya Birla", "D": "Anil Ambani"},
+        "answer": "A"
+      }
+    ]
