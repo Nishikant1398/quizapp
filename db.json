@@ -55,5 +55,119 @@
             },
             "answer": "A"
         }
+    ],
+    "medium": [
+        {
+            "id": 0,
+            "question": "Who Discovered India ?",
+            "options": {
+                "A": "Vasco Da Gama",
+                "B": "Mahatma Gandhi",
+                "C": "Jawahar lal Nehru",
+                "D": "Mohammad Ali Jinnah"
+            },
+            "answer": "A"
+        },
+        {
+            "id": 1,
+            "question": "Pure Gold is how much Carats ?",
+            "options": {
+                "A": "24 Carats",
+                "B": "22 Carats",
+                "C": "23 Carats",
+                "D": "25 Carats"
+            },
+            "answer": "A"
+        },
+        {
+            "id": 2,
+            "question": "Who is the first female Prime minister of India ?",
+            "options": {
+                "A": "Indira Gandhi",
+                "B": "Pratibha Patil",
+                "C": "Sushma Swaraj",
+                "D": "Sonia Gandhi"
+            },
+            "answer": "A"
+        },
+        {
+            "id": 3,
+            "question": "Who is known as Rocketman of India?",
+            "options": {
+                "A": "Atal Bihari Bajpai",
+                "B": "APJ Abdul kalam",
+                "C": "Lal Bahadur Shashtri",
+                "D": "Jawahar Lal Nehru"
+            },
+            "answer": "B"
+        },
+        {
+            "id": 4,
+            "question": "What units is the intensity of sound measured in ?",
+            "options": {
+                "A": "Ohm",
+                "B": "Hertz",
+                "C": "Decibals",
+                "D": "Decimals"
+            },
+            "answer": "C"
+        }
+    ],
+    "hard": [
+        {
+            "id": 0,
+            "question": "What is Joe Biden's middle name ?",
+            "options": {
+                "A": "Threslar",
+                "B": "Robert",
+                "C": "De Costa",
+                "D": "Robinette"
+            },
+            "answer": "D"
+        },
+        {
+            "id": 1,
+            "question": "Which is the longest River in India ?",
+            "options": {
+                "A": "Yamuna",
+                "B": "Indus",
+                "C": "Brahmaputra",
+                "D": "Ganga"
+            },
+            "answer": "B"
+        },
+        {
+            "id": 2,
+            "question": "Which is the tallest Building in the world ?",
+            "options": {
+                "A": "Shanghai tower",
+                "B": "Burj Khalifa",
+                "C": "Bait clock Tower",
+                "D": "Twin tower"
+            },
+            "answer": "B"
+        },
+        {
+            "id": 3,
+            "question": "Which is the fastest Car in the world ?",
+            "options": {
+                "A": "Hennessey Venom",
+                "B": "Buggati Veyron",
+                "C": "Lamborghini Aventador",
+                "D": "mcClaren"
+            },
+            "answer": "A"
+        },
+        {
+            "id": 4,
+            "question": "What is the name of Israel secret Agency ?",
+            "options": {
+                "A": "Mossad",
+                "B": "ISI",
+                "C": "RAW",
+                "D": "CIA"
+            },
+            "answer": "A"
+        }
     ]
 }
