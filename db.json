@@ -1,32 +1,59 @@
-"easy": [
-      {
-        "id": 0,
-        "question": "How many letters are there in English Alphabets ?",
-        "options": {"A": 22, "B": 25, "C": 26, "D": 24},
-        "answer": "C"
-      },
-      {
-        "id": 1,
-        "question": "What is the capital of United States of America ?",
-        "options": {"A": "New York", "B": "Washington DC", "C": "San Francisco", "D": "Chicago"},
-        "answer": "B"
-      },
-      {
-        "id": 2,
-        "question": "Name the first element of periodic element ?",
-        "options": {"A": "Hydrogen", "B": "Carbon", "C": "Lithium", "D": "Boron"},
-        "answer": "A"
-      },
-      {
-        "id": 3,
-        "question": "What is the national Game of India ?",
-        "options": {"A": "Cricket", "B": "Hockey", "C": "Football", "D": "Kabaddi"},
-        "answer": "B"
-      },
-      {
-        "id": 4,
-        "question": "Who is the owner of Reliance Industries Limited ?",
-        "options": {"A": "Mukesh Ambani", "B": "Ratan Tata", "C": "Aditya Birla", "D": "Anil Ambani"},
-        "answer": "A"
-      }
+{
+    "easy": [
+        {
+            "id": 0,
+            "question": "How many letters are there in English Alphabets ?",
+            "options": {
+                "A": 22,
+                "B": 25,
+                "C": 26,
+                "D": 24
+            },
+            "answer": "C"
+        },
+        {
+            "id": 1,
+            "question": "What is the capital of United States of America ?",
+            "options": {
+                "A": "New York",
+                "B": "Washington DC",
+                "C": "San Francisco",
+                "D": "Chicago"
+            },
+            "answer": "B"
+        },
+        {
+            "id": 2,
+            "question": "Name the first element of periodic element ?",
+            "options": {
+                "A": "Hydrogen",
+                "B": "Carbon",
+                "C": "Lithium",
+                "D": "Boron"
+            },
+            "answer": "A"
+        },
+        {
+            "id": 3,
+            "question": "What is the national Game of India ?",
+            "options": {
+                "A": "Cricket",
+                "B": "Hockey",
+                "C": "Football",
+                "D": "Kabaddi"
+            },
+            "answer": "B"
+        },
+        {
+            "id": 4,
+            "question": "Who is the owner of Reliance Industries Limited ?",
+            "options": {
+                "A": "Mukesh Ambani",
+                "B": "Ratan Tata",
+                "C": "Aditya Birla",
+                "D": "Anil Ambani"
+            },
+            "answer": "A"
+        }
     ]
+}
